@@ -14,11 +14,11 @@ spellcheck
 
 Then type
 
-`<?php
-require 'php2console.php';
-$php_console = new php_console('localhost', '5088');
-$php_console->output('OMG! AN ERROR!');
-?>`
+	<?php
+		require 'php2console.php';
+		$php_console = new php_console('localhost', '5088');
+		$php_console->output('OMG! AN ERROR!');
+	?>
 
 **Dependencies**<br>
 
